@@ -33,11 +33,10 @@ class CashRegister
  
   
   def void_last_transaction
-    binding.pry
     if self.items.length
       self.total = 0
     else 
-       self.total -= self.last_total
+       self.total = self.total - self.last_total
        binding.pry
    end
   end
