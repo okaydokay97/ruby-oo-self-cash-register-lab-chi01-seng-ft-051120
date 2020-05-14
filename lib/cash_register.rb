@@ -33,9 +33,10 @@ class CashRegister
  
   
   def void_last_transaction
-    self.total -= self.last_total
     if self.items.length
       self.total = 0
+    else 
+       self.total -= self.last_total
    end
   end
 end
