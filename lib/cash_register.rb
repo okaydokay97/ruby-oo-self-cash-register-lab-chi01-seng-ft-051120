@@ -38,6 +38,7 @@ class CashRegister
     else 
        self.total = self.total - self.last_total
    end
+   binding.pry
   end
 end
 
