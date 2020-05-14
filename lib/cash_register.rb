@@ -17,7 +17,7 @@ class CashRegister
     else
     self.items << title
   end
-  
+    self.last_total = price * quantity
     self.total += price * quantity
   end
   
