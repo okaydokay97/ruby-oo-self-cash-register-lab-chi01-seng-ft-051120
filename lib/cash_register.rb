@@ -13,7 +13,6 @@ class CashRegister
     if quantity > 1 
       (title.split * quantity).each do |each_item|
         self.items << each_item
-        binding.pry
       end
     else
     self.items << title
