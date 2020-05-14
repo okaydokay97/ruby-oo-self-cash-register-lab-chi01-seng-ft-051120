@@ -33,6 +33,7 @@ class CashRegister
  
   
   def void_last_transaction
+    binding.pry
     if self.items.length
       self.total = 0
     else 
