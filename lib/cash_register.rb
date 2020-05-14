@@ -33,7 +33,7 @@ class CashRegister
  
   
   def void_last_transaction
-    self.total-
+    self.total = 
    if self.items.length
      self.total = 0
    end
