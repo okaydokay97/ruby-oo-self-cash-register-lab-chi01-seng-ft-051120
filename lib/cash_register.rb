@@ -17,6 +17,7 @@ class CashRegister
     else
     self.items << title
   end
+  
     self.total += price * quantity
   end
   
@@ -32,7 +33,7 @@ class CashRegister
  
   
   def void_last_transaction
-    
+    self.total-
    if self.items.length
      self.total = 0
    end
